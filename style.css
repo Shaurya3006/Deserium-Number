@@ -1,0 +1,68 @@
+body{
+	background: pink;
+
+}
+.maindiv{
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 170px;
+	margin-right: 200px;
+	width: 75%;
+	border: 2px solid green;
+
+}
+h1{
+	font-size: 80px;
+}
+label{
+	font-size: 30px;
+
+}
+button
+{
+	height: 50px;
+	width: 150px;
+	color: white;
+	font-size: 30px;
+	background-color: red;
+	border-radius: 50%;
+	border: 1px solid blue;
+	outline: none;
+	margin-bottom: 10px;
+
+}
+input{
+	height: 30px;
+	width: 200px;
+	margin-bottom: 15px;
+}
+#resultdiv{
+	animation-name: sample;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	font-size: 80px;
+	text-align: center;
+
+}
+@keyframes sample{
+	0%{
+		background-color: red;
+		color: yellow;
+	}
+		25%{
+		background-color: aqua;
+		color: purple;
+	}
+		50%{
+		background-color: green;
+		color: white;
+	}
+		75%{
+		background-color: magenta;
+		color: pink;
+	}
+		100%{
+		background-color: red;
+		color: yellow;
+	}
+}
